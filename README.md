@@ -4,7 +4,7 @@ Aulas de Python em Windows 7.
 <br>
 
 # Preparação do ambiente
-
+TODO
 <br>
 
 # Aula 1

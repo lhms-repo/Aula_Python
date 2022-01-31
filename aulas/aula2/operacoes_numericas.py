@@ -17,3 +17,7 @@ print('Resultado da divisão: '+ str(resultado) )
 # Potenciação de números em Python
 resultado = 2 ** 3 # Que é igual a 2 * 2 * 2
 print('Resultado da potenciação: '+ str(resultado) )
+
+# Resto de divisão em Python
+resultado = 3 % 2 # Sobra resto nessa divisão?
+print('Resultado do resto de divisão: '+ str(resultado) )

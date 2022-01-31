@@ -47,9 +47,11 @@ TODO
 - Aprofundamento em strings
 - Concatenação
 - Uso de indexes
-- Função len()
-- Função split()
-- Função find()
+- Funções úteis
+    - len()
+    - split()
+    - find()
+    - replace()
 
 <br>
 
@@ -88,3 +90,29 @@ TODO
 - Declaração
 - Retorno
 - Passagem de parâmetros
+
+<br>
+
+# Aula 8
+## Escopo
+- Leitura e escrita de arquivos
+    - TXT
+    - JSON
+    - PDF
+
+<br>
+
+# Aula 9
+## Escopo
+- Bibliotecas
+    - SciPy
+    - NumPy
+    - math
+    - Mathplotlib
+    - Pandas
+
+<br>
+
+# Aula 10
+## Escopo
+- Gráficos e análise de dados com pandas

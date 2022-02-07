@@ -28,6 +28,22 @@ except KeyboardInterrupt:
 else:
     print('Nenhum erro foi encontrado!')
 finally:
-    print('Finalizado')
+    print('Finalizado\n\n')
 
-#TODO: colocar parte do raise exceptions
+
+
+# Para complementar o uso de blocos try, except, else, finally, foram criadas as raise 
+#   exceptions, que consistem em gerar 'levantar' um erro no código. Veja o exemplo:
+variavel = '1'
+
+try:
+    if len(variavel) == 0:
+        raise NameError('String vazio.')
+    elif variavel.isnumeric():
+        raise ValueError('É um número em formato de string.')
+except NameError as erro:
+    print(f'Erro de nome detectado: {erro}')
+except ValueError as erro:
+    print(f'Erro de tipo de variável detectado: {erro}')
+finally:
+    print('Encerrando o código')

@@ -28,7 +28,6 @@ Vá até o final da página e baixe a vesão de acordo com a arquitetura do seu 
 <center><img src="images\versao_python.PNG" alt="Baixando Python" width="900px" height="auto"></center>
 <br>
 
-<<<<<<< HEAD
 ## **Configurando as variáveis de ambiente do Python**
 Abra a aba do Windows, digite `env` e abra a janela `Edit the system environment variables`:
 <center><img src="images\abrindo_variaveis_ambiente.png" width="300px" height="auto"></center>
@@ -55,11 +54,7 @@ Após abrir o VSCode, crie um script e execute-o clicando no botão mostrado aba
 
 Por fim, basta copiar o diretório que será printado no terminal pelo VSCode:
 <center><img src="images\pegando_path_do_python_no_vscode.PNG" width="600px" height="auto"></center>
-=======
 
-## Criando variáveis de ambiente para usar o Python
-**`TODO na VM`**
-<br>
 
 ## Baixando o pip
 No prompt de comando, executar o seguinte comando:
@@ -80,7 +75,6 @@ python .\get-pip.py
 
 ## Criando variáveis de ambiente para usar o Python
 **`TODO na VM`**
->>>>>>> 9919f08810ccf0c60273307ecabe022e93a61438
 <br>
 
 ## **Instalar Git** 

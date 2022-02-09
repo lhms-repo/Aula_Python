@@ -28,6 +28,7 @@ Vá até o final da página e baixe a vesão de acordo com a arquitetura do seu 
 <center><img src="images\versao_python.PNG" alt="Baixando Python" width="900px" height="auto"></center>
 <br>
 
+<<<<<<< HEAD
 ## **Configurando as variáveis de ambiente do Python**
 Abra a aba do Windows, digite `env` e abra a janela `Edit the system environment variables`:
 <center><img src="images\abrindo_variaveis_ambiente.png" width="300px" height="auto"></center>
@@ -54,6 +55,32 @@ Após abrir o VSCode, crie um script e execute-o clicando no botão mostrado aba
 
 Por fim, basta copiar o diretório que será printado no terminal pelo VSCode:
 <center><img src="images\pegando_path_do_python_no_vscode.PNG" width="600px" height="auto"></center>
+=======
+
+## Criando variáveis de ambiente para usar o Python
+**`TODO na VM`**
+<br>
+
+## Baixando o pip
+No prompt de comando, executar o seguinte comando:
+```bash
+cd <diretório até o comando>\Aula_Python\get-pip.py
+```
+
+Ex:
+```bash
+cd C:\Users\LH\Desktop\Aula_Python
+```
+
+Execute o script para instalar o pip:
+```bash
+python .\get-pip.py
+```
+<br>
+
+## Criando variáveis de ambiente para usar o Python
+**`TODO na VM`**
+>>>>>>> 9919f08810ccf0c60273307ecabe022e93a61438
 <br>
 
 ## **Instalar Git** 
@@ -88,7 +115,14 @@ Abrir a aba `Extensions` do VSCode, digitar python e instalar a extensão:
 <br>
 
 ## Criando ambiente virtual com venv
-**`TODO`**
+O `venv` permite que um ambiente virtual do Python seja criado, de forma que este seja isolado e possa ser deletado mais facilmente.
+
+Execute o comando `<diretório do python>\python -m venv <diretório do venv>` para criar o venv. Exemplo:
+
+``` cmd
+C:\Users\LH\AppData\Local\Programs\Python\Python310\python.exe -m venv C:\Users\LH\Desktop\Aula_Python\projetos
+```
+
 <br>
 
 # **Aula 1**
@@ -188,6 +222,7 @@ Abrir a aba `Extensions` do VSCode, digitar python e instalar a extensão:
 
 # **Aula 9**
 ## Escopo
+- PIP
 - Bibliotecas
     - SciPy
     - NumPy

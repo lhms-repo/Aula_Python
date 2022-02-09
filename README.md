@@ -28,6 +28,34 @@ Vá até o final da página e baixe a vesão de acordo com a arquitetura do seu 
 <center><img src="images\versao_python.PNG" alt="Baixando Python" width="900px" height="auto"></center>
 <br>
 
+## **Configurando as variáveis de ambiente do Python**
+Abra a aba do Windows, digite `env` e abra a janela `Edit the system environment variables`:
+<center><img src="images\abrindo_variaveis_ambiente.png" width="300px" height="auto"></center>
+<br>
+
+Em seguida, clique no botão `Environment Variables`:
+<center><img src="images\abrindo_janela_variaveis_ambiente.PNG" width="350px" height="auto"></center>
+<br>
+
+Procure a variável de ambiente `Path` nas variáveis de sistema e edite ela, conforme mostrado abaixo:
+<center><img src="images\abrindo_variavel_path.png" width="350px" height="auto"></center>
+<br>
+
+Cole o seguinte texto no local indicado, depois de ir até o final da linha: `;%USERPROFILE%\AppData\Local\Programs\Python\Python\Python38-32\;`
+
+<center><img src="images\colando_python_path.PNG" width="400px" height="auto"></center>
+<br>
+
+`Caso não dê certo, executar um script python com o VSCode, pois ele printa o path que usou para executar o script. Para isso, baixar o VSCode antes.`
+
+Após abrir o VSCode, crie um script e execute-o clicando no botão mostrado abaixo:
+<center><img src="images\botao_de_execucao_script_vscode.png" width="450px" height="auto"></center>
+<br>
+
+Por fim, basta copiar o diretório que será printado no terminal pelo VSCode:
+<center><img src="images\pegando_path_do_python_no_vscode.PNG" width="600px" height="auto"></center>
+<br>
+
 ## **Instalar Git** 
 Visite o site http://git-scm.com/download/win
 

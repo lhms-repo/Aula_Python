@@ -62,7 +62,7 @@ Procure a variável de ambiente `Path` nas variáveis de sistema e edite ela, co
 <br>
 
 Cole o seguinte texto no local indicado, depois de ir até o final da linha:
-`;%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\;`
+`;%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\;%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\Scripts\`
 
 <center><img src="images\colando_python_path.PNG" width="400px" height="auto"></center>
 <br>

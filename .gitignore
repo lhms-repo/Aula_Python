@@ -1,7 +1,8 @@
 preparacao_ambiente.md
 projetos\Include
+projetos\scripts
 projetos\webapp\__pycache__
-projetos/pyvenv.cfg
+projetos\pyvenv.cfg
 
 
 # Byte-compiled / optimized / DLL files

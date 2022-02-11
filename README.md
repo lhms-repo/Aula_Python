@@ -61,7 +61,8 @@ Procure a variável de ambiente `Path` nas variáveis de sistema e edite ela, co
 <center><img src="images\abrindo_variavel_path.png" width="350px" height="auto"></center>
 <br>
 
-Cole o seguinte texto no local indicado, depois de ir até o final da linha: `;%USERPROFILE%\AppData\Local\Programs\Python\Python\Python38-32\;`
+Cole o seguinte texto no local indicado, depois de ir até o final da linha:
+`;%USERPROFILE%\AppData\Local\Programs\Python\Python38-32\;`
 
 <center><img src="images\colando_python_path.PNG" width="400px" height="auto"></center>
 <br>
@@ -104,10 +105,11 @@ Abrir a aba `Extensions` do VSCode, digitar python e instalar a extensão:
 ## **Criando ambiente virtual com venv**
 O `venv` permite que um ambiente virtual do Python seja criado, de forma que este seja isolado e possa ser deletado mais facilmente.
 
-Execute o comando `python3 -m venv <diretório do venv>` para criar o venv. Exemplo:
+Execute o comando `python -m venv <diretório do venv>` para criar o venv. Exemplo:
 
 ``` cmd
-python3 -m venv C:\Users\LH\Desktop\Aula_Python\projetos
+cd %USERPROFILE%\Desktop\Aula_Python\projetos
+python -m venv .
 ```
 
 <br>

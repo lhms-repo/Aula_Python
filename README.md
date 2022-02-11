@@ -20,6 +20,26 @@ Para verificar, basta fazer o seguinte:
 <center><img src="images\verificando_configuracao_pc.png" alt="Checando o tipo de arquitetura" width="600px" height="auto"></center>
 <br>
 
+## **Instalar VSCode**
+Visite o site https://code.visualstudio.com/download
+
+Clique no botão de download para Windows e realize a instalação.
+<br>
+
+## **Instalar Git** 
+Visite o site http://git-scm.com/download/win
+
+`OBS: cuidado com as opções na instalação, pode haver a necessidade de definir o VSCode como editor padrão do Git`
+
+<center><img src="images\versao_git.png" alt="Baixando Git" width="600px" height="auto"></center>
+
+Agora é possível fazer o clone do repositório git com o seguinte comando:
+```bash
+cd %USERPROFILE%\Desktop
+git clone https://github.com/lhms-repo/Aula_Python.git
+```
+<br>
+
 ## **Instalar Python 3.8.9**
 Visite o site https://www.python.org/downloads/release/python-389/
 
@@ -28,24 +48,7 @@ Vá até o final da página e baixe a vesão de acordo com a arquitetura do seu 
 <center><img src="images\versao_python.PNG" alt="Baixando Python" width="900px" height="auto"></center>
 <br>
 
-## Baixando o pip
-No prompt de comando, executar o seguinte comando:
-```bash
-cd <diretório até o comando>\Aula_Python\get-pip.py
-```
-
-Ex:
-```bash
-cd C:\Users\LH\Desktop\Aula_Python
-```
-
-Execute o script para instalar o pip:
-```bash
-python .\get-pip.py
-```
-<br>
-
-## Criando variáveis de ambiente para usar o Python
+## **Criando variáveis de ambiente para usar o Python**
 Abra a aba do Windows, digite `env` e abra a janela `Edit the system environment variables`:
 <center><img src="images\abrindo_variaveis_ambiente.png" width="300px" height="auto"></center>
 <br>
@@ -73,18 +76,12 @@ Por fim, basta copiar o diretório que será printado no terminal pelo VSCode:
 <center><img src="images\pegando_path_do_python_no_vscode.PNG" width="600px" height="auto"></center>
 <br>
 
-## **Instalar Git** 
-Visite o site http://git-scm.com/download/win
-
-`OBS: cuidado com as opções na instalação, pode haver a necessidade de definir o VSCode como editor padrão do Git`
-
-<center><img src="images\versao_git.png" alt="Baixando Git" width="600px" height="auto"></center>
-<br>
-
-## **Instalar VSCode**
-Visite o site https://code.visualstudio.com/download
-
-Clique no botão de download para Windows e realize a instalação.
+## **Baixando o pip**
+No prompt de comando, executar o seguinte comando:
+```bash
+cd %USERPROFILE%\Desktop\Aula_Python\
+python .\get-pip.py
+```
 <br>
 
 ## **Instalar extensões úteis do VSCode**
@@ -104,7 +101,7 @@ Abrir a aba `Extensions` do VSCode, digitar python e instalar a extensão:
 <center><img src="images\extensao_python.png" width="600px" height="auto"></center>
 <br>
 
-## Criando ambiente virtual com venv
+## **Criando ambiente virtual com venv**
 O `venv` permite que um ambiente virtual do Python seja criado, de forma que este seja isolado e possa ser deletado mais facilmente.
 
 Execute o comando `python3 -m venv <diretório do venv>` para criar o venv. Exemplo:

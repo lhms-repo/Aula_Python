@@ -1,20 +1,10 @@
 # Exercício da aula 5
 ## Proposta
-Uma sala de aula possui 5 fileiras, cada uma com 6 cadeiras. Com a necessidade de isolamento entre os alunos devido à pandemia, os alunos não podem ficar um do lado do outro ou um atrás do outro.
-
-Crie um script em Python que receba o nome de 10 alunos e os distribua na sala, printando a matriz no final da execução.
+Crie um script em Python que recebe o número N máximo de uma lista, crie uma lista que tenha os números de 1 à N somando de 1 em 1 (exemplo: [1, 2, 3, ..., N]). Após criar a lista, some todos os números dessa lista e printe o resultado.
 
 Exemplo:
 ```bash
-André       Vazio       Amaro       Vazio       Amanda
-
-Vazio       Beatriz     Vazio       Bianca      Vazio
-
-Caio        Vazio       Carol       Vazio       Eduardo
-
-Vazio       Francisco   Vazio       Gabriela    Vazio
-
-Vazio       Vazio       Vazio       Vazio       Vazio
-
-Vazio       Vazio       Vazio       Vazio       Vazio
+Digite o número máximo: 10
+Lista: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Soma: 55
 ```

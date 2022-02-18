@@ -1,7 +1,7 @@
 from time import sleep
 
 # É uma maneira de repetir um trecho de código desde que a sua 
-#   condição seja cumprida. Ex:
+# condição seja cumprida. Ex:
 
 i = 0
 limite = 5
@@ -34,8 +34,8 @@ while True:
 print(2*'\n')
 
 # Por fim, é extremamente útil poder escolher entre continuar  
-#   o loop sem executar o restante do código ou interromper o 
-#   loop:
+# o loop sem executar o restante do código ou interromper o 
+# loop:
 
 i = -1
 

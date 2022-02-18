@@ -186,8 +186,8 @@ python -m venv .
 # **Aula 6**
 ## Escopo
 - Aprofundamento de listas (matrizes)
-- Dicionários
 - Tuplas
+- Dicionários
 
 <br>
 

@@ -1,6 +1,6 @@
 # A função replace() busca um trecho de string e substitui por algo
-#   que o programador deseje, retornando a frase com a substituição
-#   realizada (caso tenha encontrado a substring desejada).
+# que o programador deseje, retornando a frase com a substituição
+# realizada (caso tenha encontrado a substring desejada).
 # Exemplo:
 
 frase = 'Eu gosto da cor azul'

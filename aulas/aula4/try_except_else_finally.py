@@ -8,7 +8,7 @@
 # try (Falhou) -> except -> finally
 
 # Teste essa hipótese executando este script com a declaração abaixo
-#   (x = 1) comentada e, depois, descomentada:
+# (x = 1) comentada e, depois, descomentada:
 
 x = 1
 
@@ -24,8 +24,8 @@ finally:
 
 
 # Observe que os blocos 'else' e 'finally' são opcionais, logo,
-#   é possível usar somente o 'try' e o 'except', como é mostrado 
-#   abaixo. Além disso, é possível printar qual o erro em questão:
+# é possível usar somente o 'try' e o 'except', como é mostrado 
+# abaixo. Além disso, é possível printar qual o erro em questão:
 
 try:
     print(x)

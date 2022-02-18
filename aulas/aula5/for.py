@@ -1,6 +1,6 @@
 # Da mesma forma, o for pode ser usado para criar um 
-#   loop, entretanto, ele acaba sendo mais versátil no 
-#   python. Veja alguns casos de uso:
+# loop, entretanto, ele acaba sendo mais versátil no 
+# python. Veja alguns casos de uso:
 
 for i in [0, 1, 2, 3, 4]:
     print(f'{i}  ', end='')

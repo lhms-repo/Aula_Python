@@ -1,5 +1,5 @@
 # Listas são um conjunto de dados endereçados de forma mais 
-#   eficiente. É uma variável 'que tem vários valores'
+# eficiente. É uma variável 'que tem vários valores'
 # Exemplo de uma lista:
 lista = [0, 1, 2, 3]
 print(lista)

@@ -1,6 +1,6 @@
 # A função split divide uma string em função de um caractere divisor
 # Por exemplo, vamos dividir uma frase em função dos espaços entre
-#   as palavras:
+# as palavras:
 frase = 'Curso de Python'
 nova_frase = frase.split(' ')
 print(frase, '\n', nova_frase, '\n')

@@ -1,5 +1,5 @@
 # Concatenar significa juntar, logo, neste tópico trabalhamos 
-#   a junção de strings
+# a junção de strings
 
 # A operação de concatenação é feita da seguinte maneira:
 string1 = 'Olá'
@@ -8,7 +8,7 @@ frase = string1 + ' ' + string2
 print(frase)
 
 # Ela também pode ser feita com diferentes tipos de variáveis, desde 
-#   que haja a conversão de tipo:
+# que haja a conversão de tipo:
 idade = 16
 string1 = '\nEu tenho ' + str(idade) + ' anos.\n'
 print(string1)

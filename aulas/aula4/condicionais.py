@@ -1,5 +1,5 @@
 # Condicionais servem para executar um trecho de código caso
-#   uma condição seja cumprida. Exemplo:
+# uma condição seja cumprida. Exemplo:
 
 numero = 4
 

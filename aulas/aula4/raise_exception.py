@@ -1,5 +1,5 @@
 # Existem diversos tipos de erros que podem fazer com que o código 
-#   caia em um bloco 'exception', conforme é mostrado abaixo:
+# caia em um bloco 'exception', conforme é mostrado abaixo:
 # - ZeroDivisionError: divisão por 0
 # - NameError: erro na nomenclatura de uma variável, função, etc
 # - TypeError: operação inválida com aquele tipo de variável
@@ -33,7 +33,7 @@ finally:
 
 
 # Para complementar o uso de blocos try, except, else, finally, foram criadas as raise 
-#   exceptions, que consistem em gerar 'levantar' um erro no código. Veja o exemplo:
+# exceptions, que consistem em gerar 'levantar' um erro no código. Veja o exemplo:
 variavel = '1'
 
 try:

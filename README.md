@@ -194,9 +194,8 @@ python -m venv .
 # **Aula 7**
 ## Escopo
 - Funções
-- Declaração
-- Retorno
 - Passagem de parâmetros
+- Retorno
 
 <br>
 
